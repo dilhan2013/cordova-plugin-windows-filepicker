@@ -1,4 +1,4 @@
-(function(cordova) {
+(function(window) {
  
  var WindowsFilePicker = function() {};
   
@@ -12,15 +12,15 @@
   
     cordova.addConstructor(function() {
                          
-        window.WindowsFilePicker = new FilePicker();
+        window.WindowsFilePicker = new WindowsFilePicker();
                          
     });
 
 	
-	window.WindowsFilePicker = new WindowsFilePicker();
+    window.WindowsFilePicker = new WindowsFilePicker();
     
     // backwards compatibility
     window.plugins = window.plugins || {};
     window.plugins.WindowsFilePicker = window.WindowsFilePicker;
   
-})(window.PhoneGap || window.Cordova || window.cordova);
+})(window);
