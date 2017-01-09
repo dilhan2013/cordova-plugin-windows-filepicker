@@ -9,13 +9,6 @@
         }
 
     };
-  
-    cordova.addConstructor(function() {
-                         
-        window.WindowsFilePicker = new WindowsFilePicker();
-                         
-    });
-
 	
     window.WindowsFilePicker = new WindowsFilePicker();
     
