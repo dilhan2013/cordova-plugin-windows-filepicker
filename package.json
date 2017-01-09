@@ -1,61 +1,25 @@
 {
-  "name": "cordova-plugin-device",
-  "version": "1.1.4",
-  "description": "Cordova Device Plugin",
+  "name": "cordova-plugin-windows-filepicker",
+  "version": "0.1.0",
+  "description": "File picker for windows platform",
   "cordova": {
-    "id": "cordova-plugin-device",
+    "id": "cordova-plugin-windows-filepicker",
     "platforms": [
-      "firefoxos",
-      "tizen",
-      "android",
-      "amazon-fireos",
-      "ubuntu",
-      "ios",
-      "blackberry10",
-      "wp7",
-      "wp8",
-      "windows8",
-      "windows",
-      "browser",
-      "osx"
+      "windows"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/apache/cordova-plugin-device"
+    "url": "git+https://github.com/dilhan2013/cordova-plugin-windows-filepicker.git"
   },
   "keywords": [
-    "cordova",
-    "device",
     "ecosystem:cordova",
-    "cordova-firefoxos",
-    "cordova-tizen",
-    "cordova-android",
-    "cordova-amazon-fireos",
-    "cordova-ubuntu",
-    "cordova-ios",
-    "cordova-blackberry10",
-    "cordova-wp7",
-    "cordova-wp8",
-    "cordova-windows8",
-    "cordova-windows",
-    "cordova-browser",
-    "cordova-osx"
+    "cordova-windows"
   ],
-  "scripts": {
-    "test": "npm run jshint",
-    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests"
+  "author": "Dilhan Jayathilake",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dilhan2013/cordova-plugin-windows-filepicker/issues"
   },
-  "author": "Apache Software Foundation",
-  "license": "Apache-2.0",
-  "engines": {
-    "cordovaDependencies": {
-      "2.0.0": {
-        "cordova": ">100"
-      }
-    }
-  },
-  "devDependencies": {
-    "jshint": "^2.6.0"
-  }
+  "homepage": "https://github.com/dilhan2013/cordova-plugin-windows-filepicker#readme"
 }
