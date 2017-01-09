@@ -1,5 +1,5 @@
 #File picker for windows platform
-Use this plugin to allow selecting any kind of files using windows file picker window.
+This plugin enables use to select files using native file selector dialog in windows. You can also provide specific file type such as *.pdf, *.docx
 
 ### Simple Usage ###
 
