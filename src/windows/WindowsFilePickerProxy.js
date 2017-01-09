@@ -25,9 +25,7 @@ module.exports = {
 					
 				}, function () {
 					errorCallback("Can't access localStorage folder.");
-				});
-								
-				successCallback();
+				});								
 				
 			} else {
 				// The picker was dismissed with no selected file
