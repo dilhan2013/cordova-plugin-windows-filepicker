@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-windows-filepicker",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "File picker for windows platform",
   "cordova": {
     "id": "cordova-plugin-windows-filepicker",
