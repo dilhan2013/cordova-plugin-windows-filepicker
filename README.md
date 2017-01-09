@@ -32,3 +32,14 @@ By default it will display all file types ```(*.*)```
     },
     ["*.pdf","*.docx"]);
 ```
+
+### Installation ###
+
+```
+cordova plugin add cordova-plugin-windows-filepicker@latest
+```
+or you can install directly from github,
+
+```
+cordova plugin add https://github.com/dilhan2013/cordova-plugin-windows-filepicker.git
+```
