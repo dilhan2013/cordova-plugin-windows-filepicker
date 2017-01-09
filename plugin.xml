@@ -12,7 +12,7 @@
     <repo>https://github.com/dilhan2013/cordova-plugin-windows-filepicker.git</repo>
 
     <js-module src="www/WindowsFilePicker.js" name="WindowsFilePicker">
-        <clobbers target="WindowsFilePicker" />
+        <clobbers target="cordova.plugins.WindowsFilePicker" />
     </js-module>
     
     <!-- windows -->
