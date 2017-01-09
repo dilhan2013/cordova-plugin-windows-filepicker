@@ -16,9 +16,9 @@ This plugin enables use to select files using native file selector dialog in win
     });
 ```
 
-### Allow only given file types ###
-You can also provide specific file type such as *.pdf, *.docx. 
-By default it will display all file types (*.*)
+### Filtering by extension ###
+You can also provide specific file type such as ```*.pdf, *.docx.```
+By default it will display all file types ```(*.*)```
 
 ```javascript
    window.plugins.WindowsFilePicker.open(["*.pdf","*.docx"], function (uri) {
